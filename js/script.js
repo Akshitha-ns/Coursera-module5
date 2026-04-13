@@ -66,8 +66,8 @@ dc.loadHomePage = function () {
 dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
 
-  $ajaxUtils.sendGetRequest(
-    menuItemsUrl + categoryShort,
+ $ajaxUtils.sendGetRequest(
+  menuItemsUrl + categoryShort + ".json",
     function (data) {
 
       var html =
