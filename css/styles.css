@@ -1,0 +1,22 @@
+body {
+  font-size: 16px;
+}
+
+#main-content {
+  margin-top: 20px;
+}
+
+.tile {
+  height: 200px;
+  margin-bottom: 15px;
+  background-color: #f8f8f8;
+  text-align: center;
+  padding-top: 70px;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+.tile:hover {
+  background-color: #e7e7e7;
+}
