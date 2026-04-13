@@ -4,9 +4,10 @@ var dc = {};
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
-  "https://davids-restaurant.herokuapp.com/categories.json";
+  "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
+
 var menuItemsUrl =
-  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
+  "https://coursera-jhu-default-rtdb.firebaseio.com/menu_items/";
 
 function insertHtml(selector, html) {
   document.querySelector(selector).innerHTML = html;
